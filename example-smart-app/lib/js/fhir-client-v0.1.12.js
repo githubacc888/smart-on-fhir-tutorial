@@ -15580,7 +15580,7 @@ if ( window.ActiveXObject ) {
 
 support.cors = !!xhrSupported && ( "withCredentials" in xhrSupported );
 support.ajax = xhrSupported = !!xhrSupported;
-
+console.log('support.cors', support.cors);
 jQuery.ajaxTransport(function( options ) {
 	var callback;
 
